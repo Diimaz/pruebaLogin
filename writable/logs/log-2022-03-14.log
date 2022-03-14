@@ -1,0 +1,187 @@
+CRITICAL - 2022-03-14 00:17:32 --> Undefined variable: username
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Home.php(10): view('login/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:22:37 --> Undefined variable: username
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Home.php(10): view('login/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:40:15 --> Undefined variable: rol
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('errorlogin/inde...', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Login.php(19): view('errorlogin/inde...', Array)
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:41:51 --> Undefined variable: rol
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Login.php(78): view('login/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->logout()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:42:03 --> Undefined variable: rol
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Login.php(78): view('login/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->logout()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:42:31 --> syntax error, unexpected '=', expecting ']'
+#0 C:\laragon\www\Login\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login/logout')
+#1 C:\laragon\www\Login\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('login/logout')
+#2 C:\laragon\www\Login\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 00:51:34 --> Undefined variable: rol
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Home.php(14): view('admin/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:54:39 --> Undefined variable: username
+#0 C:\laragon\www\Login\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 11, Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 00:54:57 --> Undefined variable: user
+#0 C:\laragon\www\Login\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 13, Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 00:55:09 --> Undefined variable: rol
+#0 C:\laragon\www\Login\app\Views\templates\admin_template.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\Login\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#4 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#5 C:\laragon\www\Login\app\Controllers\Home.php(13): view('admin/index')
+#6 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-14 00:57:15 --> Undefined variable: data
+#0 C:\laragon\www\Login\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 11, Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 00:57:31 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\laragon\www\Login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\Login\system\View\View.php(226): CodeIgniter\View\View->render('templates/admin...', Array, true)
+#2 C:\laragon\www\Login\system\Common.php(1089): CodeIgniter\View\View->render('login/index', Array, true)
+#3 C:\laragon\www\Login\app\Controllers\Home.php(11): view('login/index')
+#4 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-14 01:12:44 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\Login\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\Login\app\Controllers\Login.php(58): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->singout()
+#3 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-14 01:14:43 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in C:\laragon\www\Login\app\Controllers\Login.php on line 40
+#0 C:\laragon\www\Login\app\Controllers\Login.php(40): base_url('/', Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 01:15:27 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in C:\laragon\www\Login\app\Controllers\Login.php on line 40
+#0 C:\laragon\www\Login\app\Controllers\Login.php(40): base_url('admin/index', Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 01:16:09 --> syntax error, unexpected ';', expecting ')'
+#0 C:\laragon\www\Login\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('login/singout')
+#1 C:\laragon\www\Login\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('login/singout')
+#2 C:\laragon\www\Login\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 01:16:39 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in C:\laragon\www\Login\app\Controllers\Login.php on line 40
+#0 C:\laragon\www\Login\app\Controllers\Login.php(40): CodeIgniter\HTTP\RedirectResponse->with(Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 01:18:52 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in C:\laragon\www\Login\app\Controllers\Login.php on line 40
+#0 C:\laragon\www\Login\app\Controllers\Login.php(40): base_url('/admin/index', Array)
+#1 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 11:36:06 --> Allowed fields must be specified for model: App\Models\UsernameModel
+#0 C:\laragon\www\Login\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\laragon\www\Login\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laragon\www\Login\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laragon\www\Login\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#4 C:\laragon\www\Login\app\Controllers\Home.php(19): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 11:37:11 --> Allowed fields must be specified for model: App\Models\UsernameModel
+#0 C:\laragon\www\Login\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\laragon\www\Login\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\laragon\www\Login\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\laragon\www\Login\system\BaseModel.php(656): CodeIgniter\Model->update('1', Array)
+#4 C:\laragon\www\Login\app\Controllers\Home.php(19): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\Login\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\laragon\www\Login\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\Login\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\Login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
